@@ -12,13 +12,17 @@
 
 <!-- Rafael Arantes Gonçalves -->
 
-<header class="header fixed-top">
+<canvas id="particles"></canvas>
+<div class="cursor-glow"></div>
+
+<header class="header" id="header">
   <h1>Rafael Arantes</h1>
+
   <nav>
-    <a href="#hero">Home</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#projetos">Projetos</a>
-    <a href="#contato">Contato</a>
+    <a href="#hero" class="nav-link active">Home</a>
+    <a href="#sobre" class="nav-link">Sobre</a>
+    <a href="#projetos" class="nav-link">Projetos</a>
+    <a href="#contato" class="nav-link">Contato</a>
   </nav>
 </header>
 
@@ -26,7 +30,7 @@
 <section id="hero" class="section hero">
   <div class="content">
     <h2>Desenvolvedor de Jogos</h2>
-    <p>Gameplay • Sistemas • Experiência do Jogador</p>
+    <p>Arte 2D • Modelagem 3D • Game Design</p>
 
     <div class="buttons">
       <a href="#sobre" class="btn btn-outline-light">Sobre</a>
@@ -41,8 +45,10 @@
   <div class="content">
     <h2>Sobre Mim</h2>
     <p>
-      Desenvolvedor de jogos focado em gameplay, sistemas e mecânicas interativas.
-      Experiência com Unity, C# e design de jogos.
+    Artista e modelador 3D com foco na criação de assets para jogos digitais.
+    Experiência em desenvolvimento visual, incluindo modelagem, texturização e construção de identidade artística.
+
+    Também possuo conhecimento em Unity e C#, aplicando minhas criações dentro de projetos interativos e jogos.
     </p>
   </div>
 </section>
@@ -56,17 +62,25 @@
 
       <div class="col-md-4">
         <article class="card-custom">
-          <img src="img/projeto1.png" alt="Projeto plataforma">
-          <h3>Jogo Plataforma</h3>
-          <p>Wall run e movimentação avançada.</p>
+          <img src="img/dwarven.png" alt="Dwarven Depths">
+          <h3>Dwarven Depths</h3>
+          <p>Roguelike de sobrevivência com hordas.</p>
+
+          <div class="project-buttons">
+            <a href="https://euromir.itch.io/dwarven-depths" target="_blank" class="btn btn-success">Jogar</a>
+          </div>
         </article>
       </div>
 
       <div class="col-md-4">
         <article class="card-custom">
-          <img src="img/projeto2.png" alt="Sistema combate">
-          <h3>Sistema de Combate</h3>
-          <p>IA baseada no jogador.</p>
+          <img src="img/ShipWreckers.png" alt="Ship Wreckers">
+          <h3>Ship Wreckers</h3>
+          <p>Combate multiplayer caótico entre jogadores.</p>
+
+          <div class="project-buttons">
+            <a href="https://euromir.itch.io/ship-wreckers" target="_blank" class="btn btn-success">Jogar</a>
+          </div>
         </article>
       </div>
 
@@ -78,13 +92,38 @@
 <section id="contato" class="section">
   <div class="content">
     <h2>Contato</h2>
-    <p>Email: seuemail@email.com</p>
+
+    <p><strong>Email:</strong> rafaelarantesg@gmail.com</p>
+
+    <p>
+      <strong>LinkedIn:</strong>
+      <a href="https://www.linkedin.com/in/rafael-arantes-222172269" target="_blank">
+        linkedin.com/in/rafael-arantes
+      </a>
+    </p>
+
+    <p>
+      <strong>Bluesky:</strong>
+      <a href="https://bsky.app/profile/acedefectivee.bsky.social" target="_blank">
+        acedefectivee.bsky.social
+      </a>
+    </p>
+
+    <p>
+      <strong>ArtStation:</strong>
+      <a href="https://rafael-arantes.artstation.com" target="_blank">
+        rafael-arantes.artstation.com
+      </a>
+    </p>
+
   </div>
 </section>
 
 <footer class="footer">
   <p>© 2026 - Rafael Arantes</p>
 </footer>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
