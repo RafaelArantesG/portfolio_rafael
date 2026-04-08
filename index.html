@@ -20,7 +20,7 @@
 
   <nav>
     <a href="#hero" class="nav-link active">Home</a>
-    <a href="#sobre" class="nav-link">Sobre</a>
+    <a href="#galeria" class="nav-link">Galeria</a>
     <a href="#projetos" class="nav-link">Projetos</a>
     <a href="#contato" class="nav-link">Contato</a>
   </nav>
@@ -29,32 +29,33 @@
 <!-- HERO -->
 <section id="hero" class="section hero">
   <div class="content">
-    <h2>Desenvolvedor de Jogos</h2>
-    <p>Arte 2D • Modelagem 3D • Game Design</p>
+    <h2>Artista & Modelador 3D</h2>
+    <p>Modelagem • Texturização • Arte para Jogos</p>
 
     <div class="buttons">
-      <a href="#sobre" class="btn btn-outline-light">Sobre</a>
-      <a href="#projetos" class="btn btn-success">Projetos</a>
-      <a href="#contato" class="btn btn-outline-info">Contato</a>
+      <a href="#galeria" class="btn btn-success">Ver Artes</a>
     </div>
   </div>
 </section>
 
-<!-- SOBRE -->
-<section id="sobre" class="section">
+<!-- GALERIA -->
+<section id="galeria" class="section dark">
   <div class="content">
-    <h2>Sobre Mim</h2>
-    <p>
-    Artista e modelador 3D com foco na criação de assets para jogos digitais.
-    Experiência em desenvolvimento visual, incluindo modelagem, texturização e construção de identidade artística.
+    <h2>Galeria</h2>
 
-    Também possuo conhecimento em Unity e C#, aplicando minhas criações dentro de projetos interativos e jogos.
-    </p>
+    <div class="gallery">
+
+      <img src="img/Hermes.png" onclick="openModal(this.src)">
+      <img src="img/Dava Jonas.png" onclick="openModal(this.src)">
+      <img src="img/Jeremias.png" onclick="openModal(this.src)">
+      <img src="img/Hermes3D.png" onclick="openModal(this.src)">
+
+    </div>
   </div>
 </section>
 
 <!-- PROJETOS -->
-<section id="projetos" class="section dark">
+<section id="projetos" class="section">
   <div class="content">
     <h2>Projetos</h2>
 
@@ -62,25 +63,25 @@
 
       <div class="col-md-4">
         <article class="card-custom">
-          <img src="img/dwarven.png" alt="Dwarven Depths">
+          <img src="img/dwarven.png">
           <h3>Dwarven Depths</h3>
-          <p>Roguelike de sobrevivência com hordas.</p>
+          <p>Arte 2D em pixel-art para itens e efeitos visuais.</p>
 
-          <div class="project-buttons">
-            <a href="https://euromir.itch.io/dwarven-depths" target="_blank" class="btn btn-success">Jogar</a>
-          </div>
+          <a href="https://euromir.itch.io/dwarven-depths" target="_blank" class="btn btn-success">
+            Jogar
+          </a>
         </article>
       </div>
 
       <div class="col-md-4">
         <article class="card-custom">
-          <img src="img/ShipWreckers.png" alt="Ship Wreckers">
+          <img src="img/ShipWreckers.png">
           <h3>Ship Wreckers</h3>
-          <p>Combate multiplayer caótico entre jogadores.</p>
+          <p>Concept, arte e modelagem de personagens.</p>
 
-          <div class="project-buttons">
-            <a href="https://euromir.itch.io/ship-wreckers" target="_blank" class="btn btn-success">Jogar</a>
-          </div>
+          <a href="https://euromir.itch.io/ship-wreckers" target="_blank" class="btn btn-success">
+            Jogar
+          </a>
         </article>
       </div>
 
@@ -89,35 +90,31 @@
 </section>
 
 <!-- CONTATO -->
-<section id="contato" class="section">
+<section id="contato" class="section dark">
   <div class="content">
     <h2>Contato</h2>
 
-    <p><strong>Email:</strong> rafaelarantesg@gmail.com</p>
+    <p>Email: rafaelarantesg@gmail.com</p>
 
     <p>
-      <strong>LinkedIn:</strong>
-      <a href="https://www.linkedin.com/in/rafael-arantes-222172269" target="_blank">
-        linkedin.com/in/rafael-arantes
-      </a>
+      <a href="https://www.linkedin.com/in/rafael-arantes-222172269" target="_blank">LinkedIn</a>
     </p>
 
     <p>
-      <strong>Bluesky:</strong>
-      <a href="https://bsky.app/profile/acedefectivee.bsky.social" target="_blank">
-        acedefectivee.bsky.social
-      </a>
+      <a href="https://bsky.app/profile/acedefectivee.bsky.social" target="_blank">Bluesky</a>
     </p>
 
     <p>
-      <strong>ArtStation:</strong>
-      <a href="https://rafael-arantes.artstation.com" target="_blank">
-        rafael-arantes.artstation.com
-      </a>
+      <a href="https://rafael-arantes.artstation.com" target="_blank">ArtStation</a>
     </p>
 
   </div>
 </section>
+
+<!-- MODAL -->
+<div id="modal" onclick="closeModal()">
+  <img id="modal-img">
+</div>
 
 <footer class="footer">
   <p>© 2026 - Rafael Arantes</p>
