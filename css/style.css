@@ -13,14 +13,14 @@ body {
     animation: gradientBG 12s ease infinite;
 }
 
-/* ANIMAÇÃO DO FUNDO */
+/* Animação fundo */
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
 
-/* PARTÍCULAS */
+/* Partículas */
 #particles {
     position: fixed;
     width: 100%;
@@ -28,7 +28,7 @@ body {
     z-index: -2;
 }
 
-/* GLOW DO MOUSE */
+/* Glow Mouse */
 .cursor-glow {
     position: fixed;
     width: 120px;
@@ -41,7 +41,7 @@ body {
     filter: blur(10px);
 }
 
-/* HEADER */
+/* Header */
 .header {
     width: 100%;
     background: rgba(0, 0, 0, 0.85);
@@ -82,7 +82,7 @@ body {
     transition: 0.3s;
 }
 
-/* LINHA ANIMADA */
+/* Linha animada */
 .nav-link::after {
     content: "";
     position: absolute;
@@ -98,11 +98,11 @@ body {
     width: 100%;
 }
 
-/* LINK ATIVO */
+/* Links */
 .nav-link.active {
     color: #22c55e;
 }
-/* SEÇÕES */
+/* Seções */
 .section {
     height: 100vh;
     scroll-snap-align: start;
@@ -113,13 +113,13 @@ body {
     padding: 20px;
 }
 
-/* HERO */
+/* Hero */
 .hero h2 {
     font-size: 3rem;
     color: #22c55e;
 }
 
-/* BOTÕES */
+/* Botões */
 .buttons {
     margin-top: 20px;
 }
@@ -128,12 +128,12 @@ body {
     margin: 5px;
 }
 
-/* SEÇÃO ESCURA */
+/* Seção Escura */
 .dark {
     background-color: rgba(2, 6, 23, 0.6);
 }
 
-/* GALERIA */
+/* Galeria */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -151,7 +151,7 @@ body {
     transform: scale(1.05);
 }
 
-/* MODAL */
+/* Modal */
 #modal {
     display: none;
     position: fixed;
@@ -168,7 +168,7 @@ body {
     max-height: 80%;
 }
 
-/* CARDS */
+/* Cards */
 .card-custom {
     background: rgba(2,6,23,0.7);
     padding: 20px;
@@ -190,7 +190,7 @@ body {
     box-shadow: 0 0 20px #22c55e;
 }
 
-/* BOTÕES DOS PROJETOS */
+/* Botões Projetos */
 .project-buttons {
     margin-top: 15px;
 }
@@ -199,7 +199,7 @@ body {
     margin: 5px;
 }
 
-/* FOOTER */
+/* Footer */
 .footer {
     text-align: center;
     padding: 10px;

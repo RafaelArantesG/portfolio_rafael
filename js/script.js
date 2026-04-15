@@ -1,7 +1,4 @@
-// =========================
-// HEADER INTERATIVO
-// =========================
-
+/* Header */
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-link");
 const header = document.getElementById("header");
@@ -31,10 +28,7 @@ window.addEventListener("scroll", () => {
     }
 });
 
-
-// =========================
-// GLOW DO MOUSE
-// =========================
+/* Glow Mouse */
 
 const glow = document.querySelector(".cursor-glow");
 
@@ -63,10 +57,7 @@ function animateGlow() {
 
 animateGlow();
 
-
-// =========================
-// PARTÍCULAS
-// =========================
+/* Partículas */
 
 const canvas = document.getElementById("particles");
 const ctx = canvas.getContext("2d");
@@ -106,9 +97,7 @@ function animateParticles() {
 
 animateParticles();
 
-// =========================
-// MODAL DE IMAGEM
-// =========================
+/* Modal Imagem */
 
 function openModal(src) {
     const modal = document.getElementById("modal");
